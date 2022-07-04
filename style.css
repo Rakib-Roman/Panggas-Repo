@@ -5,6 +5,7 @@ body {
 .half {
     width: 50%;
     padding: 5%;
+
 }
 
 span {
@@ -13,6 +14,7 @@ span {
 
 .flexible-container {
     display: flex;
+    padding: 0%;
 }
 
 .button {
@@ -28,4 +30,18 @@ span {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.half2 {
+    width: 50%;
+    padding: 5%;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+footer p {
+    text-align: center;
+    background-color: tomato;
+    height: 40px;
 }
